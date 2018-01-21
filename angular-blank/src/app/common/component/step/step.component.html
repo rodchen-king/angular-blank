@@ -1,0 +1,11 @@
+<div class="step">
+  <div>
+    {{stepString[0]}}
+  </div>
+  <div>
+    {{stepString[1]}}
+  </div>
+  <div *ngIf="stepString[2] !== undefined">
+    <img [src]="stepString[2]" />
+  </div>
+</div>

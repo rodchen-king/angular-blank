@@ -1,0 +1,16 @@
+.step {
+  margin: 30px auto;
+  width: 90%;
+  box-shadow: 0px 1px 10px rgba(34, 25, 25, 0.2);
+  padding: 10px 20px;
+}
+
+.step div:nth-child(1) {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.step div:nth-child(2) {
+  margin: 20px;
+  color: #108ee9;
+}

@@ -1,0 +1,22 @@
+.ueditor {
+  padding-bottom: 30px;
+}
+
+.article {
+  margin: 20px 30px 0px;
+}
+
+.articles {
+  min-height: 50px;
+  color: #108ee9;
+  font-weight: bolder;
+}
+
+.articles div {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ueditor {
+  margin: 20px 30px 0px;
+}

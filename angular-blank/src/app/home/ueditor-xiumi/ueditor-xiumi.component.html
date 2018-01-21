@@ -1,0 +1,24 @@
+<div class="ueditor">
+  <div class="article">
+    <h1>Articles</h1>
+    <hr>
+    <div class="articles">
+      <div (click)="viewArticle(article)" *ngFor="let article of articles; let i = index;">
+        article {{i + 1}}
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="ueditor">
+    <h1>Add article</h1>
+    <div>
+      <ueditor class="ueditor"
+               (onPreReady)="onPreReady($event)"
+               [loadingTip]="''" #full></ueditor>
+    </div>
+
+    <button (click)="addArticle()" style="width: 200px;" nz-size="'large'" nz-button [nzType]="'primary'">
+      <span>Add</span>
+    </button>
+  </div>
+</div>

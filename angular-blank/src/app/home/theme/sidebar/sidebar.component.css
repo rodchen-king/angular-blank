@@ -1,0 +1,49 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #fff;
+  transition: width .2s cubic-bezier(.25,0,.15,1),translate .2s cubic-bezier(.25,0,.15,1);
+  z-index: 14;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+.sidebar > ul {
+  height: 100%;
+  padding-top: 80px;
+}
+
+.user {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.dashboard {
+  text-decoration: none;
+  color: black;
+}
+
+a.dashboard:hover {
+  color: #108ee9;
+}
+
+.dashboard-active {
+  color: #108ee9;
+}
+
+.user {
+  padding-top: 20px;
+  box-shadow: 0px 1px 10px rgba(34, 25, 25, 0.2);
+  width: 80%;
+  margin: 30px auto;
+}
+
+.icon img{
+  height: 80px;
+  border-radius:5px
+}

@@ -1,0 +1,49 @@
+<div class="sidebar">
+  <ul nz-menu [nzMode]="'inline'" style="height:100%">
+    <li>
+      <div class="user" >
+        <div class="icon">
+          <img src="./assets/images/user_logo.jpg"/>
+        </div>
+        <div class="information">
+          <h3>Rod Chen</h3>
+        </div>
+      </div>
+    </li>
+    <li nz-menu-item class="dashboard">
+      <span title>
+        <a class="dashboard" routerLinkActive="dashboard-active" [routerLink]="['/home/dashboard']"><i class="anticon anticon-appstore"></i>Dashboard</a></span>
+    </li>
+    <li #ueditor nz-submenu>
+      <span title><i class="anticon anticon-user"></i>Euditor + XiuMi</span>
+      <ul>
+        <li nz-menu-item>
+          <a routerLinkActive="dashboard-active" [routerLink]="['/home/ueditor']">Ueditor</a>
+        </li>
+        <li nz-menu-item>
+          XiuMi
+        </li>
+      </ul>
+    </li>
+    <li #angular nz-submenu>
+      <span title><i class="anticon anticon-laptop"></i>Angular</span>
+      <ul>
+        <li nz-menu-item>
+          <a routerLinkActive="dashboard-active" [routerLink]="['/home/angular']">module</a>
+        </li>
+        <li nz-menu-item>option6</li>
+        <li nz-menu-item>option7</li>
+        <li nz-menu-item>option8</li>
+      </ul>
+    </li>
+    <li nz-submenu>
+      <span title><i class="anticon anticon-notification"></i>subnav 3</span>
+      <ul>
+        <li nz-menu-item>option9</li>
+        <li nz-menu-item>option10</li>
+        <li nz-menu-item>option11</li>
+        <li nz-menu-item>option12</li>
+      </ul>
+    </li>
+  </ul>
+</div>
