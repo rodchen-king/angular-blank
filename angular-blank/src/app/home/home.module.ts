@@ -14,7 +14,7 @@ import {XiumiComponent} from './ueditor-xiumi/xiumi/xiumi.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: '/xiumi', component: XiumiComponent},
+  {path: 'xiumi', component: XiumiComponent},
   {
     path: 'home',
     component: HomeComponent,

@@ -21,6 +21,7 @@
 .user {
   text-align: center;
   margin: 20px 0px;
+  border: 2px solid rgb(204, 204, 204);
 }
 
 .dashboard {

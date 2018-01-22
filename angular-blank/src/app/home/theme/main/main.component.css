@@ -2,7 +2,7 @@
   padding-top: 80px;
   padding-left: 250px;
   padding-bottom: 30px;
-  background: rgb(235, 239, 245);
+  background: darkgrey;
 }
 
 .header {
@@ -13,12 +13,83 @@
 
 .contain {
   margin: 30px 2.5%;
-  width: 95%;
   box-shadow: 0px 1px 10px rgba(34, 25, 25, 0.2);
   border-radius: 5px;
   background: white;
   min-width: 1205px;
   margin-bottom: 0px;
+  width: 95%;
   display: inline-block;
   min-height: 575px;
+}
+
+@media only screen and (max-width: 1920px) and (max-height: 1080px ) {
+  .contain {
+    min-height: 800px;
+  }
+}
+
+@media only screen and (max-width: 1680px) and (max-height: 1050px ) {
+  .contain {
+    min-height: 775px;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 900px ) {
+  .contain {
+    min-height: 625px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (max-height: 900px ) {
+  .contain {
+    min-height: 625px;
+    min-width: 828.25px;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (max-height: 1050px ) {
+  .contain {
+    min-width: 828.25px;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px ) {
+  .contain {
+    min-height: 495px;
+    min-width: 800px;
+  }
+
+  .item {
+    height: 0px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 1024px ) {
+  .contain {
+    min-height: 750px;
+    min-width: 800px;
+  }
+
+  .item {
+    height: 0px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 960px ) {
+  .contain {
+    min-height: 680px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px ) {
+  .contain {
+    min-height: 520px;
+    min-width: 962.34px;
+  }
+
+  .main {
+    min-width: 1280px;
+    min-height: 660px;
+  }
 }
