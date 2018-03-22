@@ -1,0 +1,29 @@
+<!Doctye html>
+<html>
+<head>
+</head>
+<body>
+  <div class='div'> 
+    Test dom load.
+  </div>
+  <script type="text/javascript">
+    console.log('resolve body JavaScript');
+   
+    window.addEventListener('load',function(){
+      console.log('window load');
+    })
+
+    document.addEventListener('readystatechange',function(){
+      console.log('document ' + document.readyState);
+    })
+
+    document.addEventListener('DOMContentLoaded',function(){
+      console.log('document DOMContentLoaded');
+    })
+    //document 没有load事件??
+    document.addEventListener('load',function(){
+      console.log('document load');
+    })
+  </script>
+</body>
+</html>
